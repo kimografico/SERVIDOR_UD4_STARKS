@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+
+table, td, tr, th{
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 2px solid #CCC;
+    font-size: 15px;
+    text-align: center;
+}
+th{
+    text-transform:uppercase;
+    font-size: 12px;
+}
+
+table {
+    background: #CCC;
+    margin: auto;
+    margin-top: 50px;
+}
+
+td {
+    background: white;
+}
+
+img {
+    position: relative;
+    top:3px;
+}
+tr :nth-child(1):not(th), :nth-child(2):not(th){
+    background: #CCC;
+    font-size: 9px;
+}
+
+tr :nth-child(3):not(th){
+    font-weight: bold;
+}
